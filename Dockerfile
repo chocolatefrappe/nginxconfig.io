@@ -15,8 +15,6 @@ COPY <<EOF build/index.html
     <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no">
     <title>NGINXConfig</title>
     <meta name="description" content="The easiest way to configure a performant, secure, and stable NGINX server.">
-    <meta name="robots" content="noindex">
-    <meta name="next-head-count" content="19">
 </head>
 <body>
     <div id="app"></div>
