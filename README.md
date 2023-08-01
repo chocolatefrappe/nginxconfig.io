@@ -18,6 +18,19 @@
 > 
 > Please visit https://github.com/digitalocean/nginxconfig.io
 
-> ## What changes?
-> - Remove DigitalOcean Header and Navigation to make it suitable for self-hosting.
-> - Ship the application in a Docker container.
+## Usage
+
+The application is available as a Docker image from [Docker Hub](https://hub.docker.com/r/socheatsok78/nginxconfig).
+
+```bash
+docker run --rm -it -p 8080:80 socheatsok78/nginxconfig
+```
+
+## What changes?
+- Remove DigitalOcean Header and Navigation to make it suitable for self-hosting.
+- Ship the application in a Docker container.
+
+## License
+
+Copyright © 2020 DigitalOcean, Inc <contact@digitalocean.com> (https://www.digitalocean.com).  
+This project is licensed under the [MIT](LICENSE) license.
