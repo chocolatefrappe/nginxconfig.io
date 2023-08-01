@@ -9,9 +9,13 @@ it:
 	@echo "Usage: make [build|run]"
 	@echo "  build: build docker image"
 	@echo "  run: run docker image"
+	@echo "  push: push docker image to registry"
 
 build:
 	docker buildx bake $(BUILDX_BAKE_FILES) $(BUILDX_BAKE_OPTIONS) $(BUILDX_BAKE_TARGETS)
 
 run:
 	docker run --rm -it -p 8080:80 $(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_TAG)
+
+push:
+	docker push $(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_TAG)
