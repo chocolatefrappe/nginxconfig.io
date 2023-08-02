@@ -7,16 +7,18 @@
     <a href="https://do.co/nginxconfig"><strong>do.co/nginxconfig »</strong></a>
     <br />
     <br />
+    <a href="https://github.com/digitalocean/nginxconfig.io">Source code</a>
+    .
     <a href="https://github.com/digitalocean/nginxconfig.io/issues/new?template=report-a-bug.md">Report a bug</a>
     ·
     <a href="https://github.com/digitalocean/nginxconfig.io/issues/new?template=request-a-feature.md">Request a feature</a>
 </p>
 
-> ## Important
->
-> The `nginxconfig.io` project are maintained by **DigitalOcean** community.
-> 
-> Please visit https://github.com/digitalocean/nginxconfig.io
+## About
+
+A self-hosted version of `nginxconfig.io` by **DigitalOcean**.
+
+[Source](https://github.com/socheatsok78/nginxconfig.io) | [Docker Hub](https://hub.docker.com/r/socheatsok78/nginxconfig)
 
 ## Usage
 
