@@ -2,7 +2,11 @@ name: build
 
 on:
   push:
-
+    branches:
+      - main
+    paths:
+      - 'docker-bake.hcl'
+      - 'Dockerfile'
 env:
   DOCKER_IMAGE: socheatsok78/nginxconfig
 
