@@ -8,7 +8,7 @@ on:
       - 'docker-bake.hcl'
       - 'Dockerfile'
 env:
-  DOCKER_IMAGE: socheatsok78/nginxconfig
+  DOCKER_IMAGE: chocolatefrappe/nginxconfig
 
 jobs:
   build:
