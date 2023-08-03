@@ -35,4 +35,4 @@ docker run --rm -it -p 8080:80 socheatsok78/nginxconfig
 ## License
 
 Copyright © 2020 DigitalOcean, Inc <contact@digitalocean.com> (https://www.digitalocean.com).  
-This project is licensed under the [MIT](LICENSE) license.
+This project is licensed under the [MIT](https://github.com/chocolatefrappe/nginxconfig.io/blob/main/LICENSE) license.
