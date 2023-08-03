@@ -18,14 +18,14 @@
 
 A self-hosted version of `nginxconfig.io` by **DigitalOcean**.
 
-[Source](https://github.com/socheatsok78/nginxconfig.io) | [Docker Hub](https://hub.docker.com/r/socheatsok78/nginxconfig)
+[Source](https://github.com/chocolatefrappe/nginxconfig.io) | [Docker Hub](https://hub.docker.com/r/chocolatefrappe/nginxconfig.io)
 
 ## Usage
 
-The application is available as a Docker image from [Docker Hub](https://hub.docker.com/r/socheatsok78/nginxconfig).
+The application is available as a Docker image from [Docker Hub](https://hub.docker.com/r/chocolatefrappe/nginxconfig.io).
 
 ```bash
-docker run --rm -it -p 8080:80 socheatsok78/nginxconfig
+docker run --rm -it -p 8080:80 chocolatefrappe/nginxconfig.io
 ```
 
 ## What changes?
