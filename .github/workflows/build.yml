@@ -1,12 +1,14 @@
 name: build
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
       - 'docker-bake.hcl'
       - 'Dockerfile'
+
 env:
   DOCKER_IMAGE: chocolatefrappe/nginxconfig
 
