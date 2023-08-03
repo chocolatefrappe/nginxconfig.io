@@ -10,7 +10,7 @@ on:
       - 'Dockerfile'
 
 env:
-  DOCKER_IMAGE: chocolatefrappe/nginxconfig
+  DOCKER_IMAGE: chocolatefrappe/nginxconfig.io
 
 jobs:
   build:
