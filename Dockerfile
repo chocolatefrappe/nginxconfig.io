@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:labs
 
 # Build
-FROM node:18-alpine AS build
+FROM node:20-alpine AS build
 
 WORKDIR /app
 ADD https://github.com/digitalocean/nginxconfig.io.git /app
@@ -27,10 +27,7 @@ EOF
 # <template><!--src/nginxconfig/templates/callouts/contribute.vue--></template>
 # EOF
 
-RUN npm ci \
-    && npm run build:prism \
-    && npm run build:static \
-    && npm run build:tool
+RUN npm ci && npm run build
 
 # nginxconfig.io
 FROM nginx:stable-alpine
