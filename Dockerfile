@@ -27,7 +27,10 @@ EOF
 # <template><!--src/nginxconfig/templates/callouts/contribute.vue--></template>
 # EOF
 
-RUN npm ci && npm run build
+RUN npm ci \
+    && npm run build:prism \
+    && npm run build:static \
+    && npm run build:tool
 
 # nginxconfig.io
 FROM nginx:stable-alpine
