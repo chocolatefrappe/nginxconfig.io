@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:labs
 
 # Build
-FROM node:20-alpine AS build
+FROM --platform=$BUILDPLATFORM node:20-alpine AS build
 
 WORKDIR /app
 ADD https://github.com/digitalocean/nginxconfig.io.git /app
